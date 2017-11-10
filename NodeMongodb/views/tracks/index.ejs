@@ -1,0 +1,14 @@
+
+
+<%for (var t in tracks) {%>
+
+<a class="track" href='/tracks/<%=tracks[t].dataTitle%>'>
+	
+	<p><%=tracks[t].dataTitle%></p>
+	<p><%=tracks[t].dataArtist%></p>
+	<p><%=tracks[t].dataAlbum%></p>
+	<p><%=tracks[t].dataUser%></p>
+
+</a>
+
+<%}%>
