@@ -17,6 +17,7 @@ How to configure:
 How to run:
 node ./bin/www
 
+Note: node_modules folder compressed and uploaded too.
 
 #Quick exercises.
 Answers written in plane text.
